@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Timer",
+    "description": "A Pomodoro timer extension for Brave",
+    "version": "1.0",
+    "icons": {
+      "128": "icon128.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": "icon128.png",
+      "default_title": "Pomodoro Timer"
+    },
+    "permissions": [
+      "alarms",
+      "notifications"
+    ]
+  }
+  
